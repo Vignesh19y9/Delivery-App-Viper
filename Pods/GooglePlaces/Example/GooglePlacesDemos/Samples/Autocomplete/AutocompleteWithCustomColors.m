@@ -45,14 +45,11 @@ static CGFloat const kButtonPadding = 10.f;
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  UIColor *textColor = nil;
 #if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
   if (@available(iOS 13.0, *)) {
     self.view.backgroundColor = [UIColor systemBackgroundColor];
-    textColor = [UIColor labelColor];
   } else {
     self.view.backgroundColor = [UIColor whiteColor];
-    textColor = [UIColor blackColor];
   }
 #else
   self.view.backgroundColor = [UIColor whiteColor];
@@ -73,7 +70,7 @@ static CGFloat const kButtonPadding = 10.f;
 
   UIButton *brownThemeButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [brownThemeButton setTitle:titleYellowAndBrown forState:UIControlStateNormal];
-  [brownThemeButton setTitleColor:textColor forState:UIControlStateNormal];
+  [brownThemeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   [brownThemeButton addTarget:self
                        action:@selector(openBrownTheme:)
              forControlEvents:UIControlEventTouchUpInside];
@@ -87,7 +84,7 @@ static CGFloat const kButtonPadding = 10.f;
 
   UIButton *blackThemeButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [blackThemeButton setTitle:titleWhiteOnBlack forState:UIControlStateNormal];
-  [blackThemeButton setTitleColor:textColor forState:UIControlStateNormal];
+  [blackThemeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   [blackThemeButton addTarget:self
                        action:@selector(openBlackTheme:)
              forControlEvents:UIControlEventTouchUpInside];
@@ -102,7 +99,7 @@ static CGFloat const kButtonPadding = 10.f;
 
   UIButton *blueThemeButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [blueThemeButton setTitle:titleBlueColors forState:UIControlStateNormal];
-  [blueThemeButton setTitleColor:textColor forState:UIControlStateNormal];
+  [blueThemeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   [blueThemeButton addTarget:self
                       action:@selector(openBlueTheme:)
             forControlEvents:UIControlEventTouchUpInside];
@@ -117,7 +114,7 @@ static CGFloat const kButtonPadding = 10.f;
 
   UIButton *hotDogThemeButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [hotDogThemeButton setTitle:titleHotDogStand forState:UIControlStateNormal];
-  [hotDogThemeButton setTitleColor:textColor forState:UIControlStateNormal];
+  [hotDogThemeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   [hotDogThemeButton addTarget:self
                         action:@selector(openHotDogTheme:)
               forControlEvents:UIControlEventTouchUpInside];

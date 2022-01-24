@@ -28,119 +28,133 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		75100E5CE4C3CE9FAFF6F45440577618 /* Pods-Food Delivery Viper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC61D11616A5ADF8CF3504C1657EA089 /* Pods-Food Delivery Viper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F6C9EC231335A768488AE48C1A6C72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AAD998C9D65A368E60EAAA29DE74BEE4 /* Pods-Food Delivery Viper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E50032CCE4F76B3EBEA5B724FC66B3D /* Pods-Food Delivery Viper-dummy.m */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D630E723A9FF3572C8DC246DD0E7AC /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AAF6661C0A5F7513DB0A5F45C4E30A /* SwiftyJSON-dummy.m */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E21C50AEE487B34D4A722ED7C436B0 /* SwiftyJSON.swift */; };
+		922712140093A3ED72D88FC384B53944 /* Pods-Food Delivery Viper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D6BE911A7EBAC3C462D58929A7D08B /* Pods-Food Delivery Viper-dummy.m */; };
+		C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA321B64CD9827EF71A04E4896473606 /* Pods-Food Delivery Viper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE265D2B6CA19E7307479E1049A472B8 /* Pods-Food Delivery Viper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3DA6F27E55C9416CCC68903FEB3E04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		782800D07FBC7491864894A8184F44A8 /* PBXContainerItemProxy */ = {
+		0BDBEDC77D187DEE3F71FEB9595CA0FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
 		};
-		CB08C58F56A83E364E1B6EB33FDACE03 /* PBXContainerItemProxy */ = {
+		20440EE2B95B574D3610FE23402D7FB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
 			remoteInfo = GooglePlaces;
 		};
+		845CC743BB9EA8214C1310102DE400A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CE443733F8E6539D01CD489E5152744 /* Pods-Food Delivery Viper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food Delivery Viper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		08D630E723A9FF3572C8DC246DD0E7AC /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		1DEC7073E8CB414220F74FAB65306A19 /* Pods-Food Delivery Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Delivery Viper.debug.xcconfig"; sourceTree = "<group>"; };
+		1FBCCD1EC0595E98FF226CACB43226F0 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		22AAF6661C0A5F7513DB0A5F45C4E30A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		2FBDB19DE0CE81F810540E2567D9A22F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		37E25DB2605671127C35F61754E077EF /* Pods_Food_Delivery_Viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Food_Delivery_Viper.framework; path = "Pods-Food Delivery Viper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		4E50032CCE4F76B3EBEA5B724FC66B3D /* Pods-Food Delivery Viper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food Delivery Viper-dummy.m"; sourceTree = "<group>"; };
-		575E5ECD1739D6F9326C6F5644D37EAD /* Pods-Food Delivery Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Delivery Viper.release.xcconfig"; sourceTree = "<group>"; };
-		636AA19C4EF5DF23EA49E4038E89BA03 /* Pods-Food Delivery Viper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Delivery Viper-Info.plist"; sourceTree = "<group>"; };
-		63BED1FADB5C4617CD7A892434369C06 /* Pods-Food Delivery Viper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Food Delivery Viper.modulemap"; sourceTree = "<group>"; };
+		513E2201DCE4B2EBDEE568462C07FAC3 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		52A7B3E46D6069EFD0D4AE7A3ABF71DF /* Pods-Food Delivery Viper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Food Delivery Viper.modulemap"; sourceTree = "<group>"; };
+		542C9D21D82720DFAFE714839D5AC7E1 /* Pods-Food Delivery Viper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Delivery Viper-frameworks.sh"; sourceTree = "<group>"; };
+		56EFA769D2FA65124F3127F8F0369DAD /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		6698465E67FA7D1296DDF665A4C36D96 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		9858667A5115CF4B22A776DAF316AE25 /* Pods-Food Delivery Viper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Delivery Viper-resources.sh"; sourceTree = "<group>"; };
-		9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		7586DA1F1F3DD9EF98EBEBF83D597384 /* Pods-Food Delivery Viper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Delivery Viper-Info.plist"; sourceTree = "<group>"; };
+		84F5E0BD3D4879E9291ADE6F59F4A711 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		953D60100F0A0FD4EA076584030933E6 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		958ACC2F98315A0EE4FE05F29B5CBA3E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		97B2925273397BE83004B1A581F4FF57 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
-		A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
-		AA1453C3FDA64B69E76DE4D3CC9AD10C /* Pods-Food Delivery Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Delivery Viper.debug.xcconfig"; sourceTree = "<group>"; };
-		DB9E64804A640824EE632746F1123DD5 /* Pods-Food Delivery Viper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Delivery Viper-acknowledgements.plist"; sourceTree = "<group>"; };
-		E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
-		FC61D11616A5ADF8CF3504C1657EA089 /* Pods-Food Delivery Viper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food Delivery Viper-umbrella.h"; sourceTree = "<group>"; };
+		A06AE6EBFF252AFA0B80B1A828F40EC3 /* Pods-Food Delivery Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Food Delivery Viper.release.xcconfig"; sourceTree = "<group>"; };
+		A7D6BE911A7EBAC3C462D58929A7D08B /* Pods-Food Delivery Viper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Food Delivery Viper-dummy.m"; sourceTree = "<group>"; };
+		AB27FFFD50DE8EADBF12AC3ACD570981 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		AC6018847CC429A83BC80DD7B62F20F8 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		B021A21968D2B9922B972B584FEEFAEE /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		B33EF03EAD0EDD985F461E18B7C528AD /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		B74E83F6FE09CBE04209D5D2F54EA78D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C6E21C50AEE487B34D4A722ED7C436B0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D0411A642B67136DEA88F07DC8FC0E7B /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8876EE13C5DC58EE78BB1368D99C8B /* Pods-Food Delivery Viper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Food Delivery Viper-resources.sh"; sourceTree = "<group>"; };
+		EF5BC5B98C1429A156D09F9D3A1AF526 /* Pods-Food Delivery Viper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Food Delivery Viper-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2BA2156E7BD6C79296D6A60E02D5F88 /* Pods-Food Delivery Viper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Food Delivery Viper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE265D2B6CA19E7307479E1049A472B8 /* Pods-Food Delivery Viper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Food Delivery Viper-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B6D77257BEBA5177F2847CDD23BBDB6 /* Frameworks */ = {
+		4C25AD067FEFB2E4EB02DF8F08919A23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6C9EC231335A768488AE48C1A6C72E /* Foundation.framework in Frameworks */,
+				ED3DA6F27E55C9416CCC68903FEB3E04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */ = {
+		0813939D23343EBB75601786F4ADC5C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0883B537F1FDF67277437486C4066E63 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				E86A34344FF943F078B6064D778D230A /* Base */,
-				A38D68C78C032F2CEEEEED36818D37F0 /* Maps */,
-				6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		1A6E0D7DC8A306AD69C5961E884CC245 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37E25DB2605671127C35F61754E077EF /* Pods_Food_Delivery_Viper.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */,
-				A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */,
+				958ACC2F98315A0EE4FE05F29B5CBA3E /* SwiftyJSON.modulemap */,
+				22AAF6661C0A5F7513DB0A5F45C4E30A /* SwiftyJSON-dummy.m */,
+				B021A21968D2B9922B972B584FEEFAEE /* SwiftyJSON-Info.plist */,
+				D0411A642B67136DEA88F07DC8FC0E7B /* SwiftyJSON-prefix.pch */,
+				08D630E723A9FF3572C8DC246DD0E7AC /* SwiftyJSON-umbrella.h */,
+				B33EF03EAD0EDD985F461E18B7C528AD /* SwiftyJSON.debug.xcconfig */,
+				513E2201DCE4B2EBDEE568462C07FAC3 /* SwiftyJSON.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GooglePlaces";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		3FE4CC4B7B0241873FFF96886667937D /* Frameworks */ = {
+		2AE5B018CDF65C7B27782B09CD04BA5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */,
+				84F5E0BD3D4879E9291ADE6F59F4A711 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E5A5A3A9AD9BA6DBA8C98E7E218018A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B2925273397BE83004B1A581F4FF57 /* GoogleMaps.debug.xcconfig */,
+				6698465E67FA7D1296DDF665A4C36D96 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		3EAD264A1D8CCBD7C99E64332752531A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB27FFFD50DE8EADBF12AC3ACD570981 /* GoogleMapsBase.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				3FE4CC4B7B0241873FFF96886667937D /* Frameworks */,
-				7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */,
-				3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */,
-			);
-			name = GooglePlaces;
-			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -151,39 +165,104 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */ = {
+		627FE862D153A73B5DD9E2A8DA88072F /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */,
-				9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */,
+				C6E21C50AEE487B34D4A722ED7C436B0 /* SwiftyJSON.swift */,
+				0813939D23343EBB75601786F4ADC5C1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleMaps";
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		7DDA47E3D8C82ADCB64F7C6FC9641D65 /* Resources */ = {
+		628DAE06CB021A0BCAF20A23CFC5596A /* Pods-Food Delivery Viper */ = {
 			isa = PBXGroup;
 			children = (
-				4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */,
+				52A7B3E46D6069EFD0D4AE7A3ABF71DF /* Pods-Food Delivery Viper.modulemap */,
+				F2BA2156E7BD6C79296D6A60E02D5F88 /* Pods-Food Delivery Viper-acknowledgements.markdown */,
+				EF5BC5B98C1429A156D09F9D3A1AF526 /* Pods-Food Delivery Viper-acknowledgements.plist */,
+				A7D6BE911A7EBAC3C462D58929A7D08B /* Pods-Food Delivery Viper-dummy.m */,
+				542C9D21D82720DFAFE714839D5AC7E1 /* Pods-Food Delivery Viper-frameworks.sh */,
+				7586DA1F1F3DD9EF98EBEBF83D597384 /* Pods-Food Delivery Viper-Info.plist */,
+				EE8876EE13C5DC58EE78BB1368D99C8B /* Pods-Food Delivery Viper-resources.sh */,
+				FE265D2B6CA19E7307479E1049A472B8 /* Pods-Food Delivery Viper-umbrella.h */,
+				1DEC7073E8CB414220F74FAB65306A19 /* Pods-Food Delivery Viper.debug.xcconfig */,
+				A06AE6EBFF252AFA0B80B1A828F40EC3 /* Pods-Food Delivery Viper.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Pods-Food Delivery Viper";
+			path = "Target Support Files/Pods-Food Delivery Viper";
 			sourceTree = "<group>";
 		};
-		A38D68C78C032F2CEEEEED36818D37F0 /* Maps */ = {
+		64DEEB477B22076EADD3E95E14B0B65A /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				E435AD63DBCE250679648002DC9F8442 /* Frameworks */,
-				FAF4CAFF608973234241B6D824C4FC0F /* Resources */,
+				CF5D3AC8D7CC75BFAA7FCFA0B5A25AFF /* Frameworks */,
+				A80A7197FFDEC718D63E4E038B90834D /* Resources */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
 		};
-		C406EDC0131CEECEC0CF8364C84E5DC1 /* Targets Support Files */ = {
+		6E9C3F9AE9DAA53CFEC83000BDB07CE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBB37780F380A0D34B0D33ACF40B9B5E /* Pods-Food Delivery Viper */,
+				56EFA769D2FA65124F3127F8F0369DAD /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F9E2FADC2409ACB4C46EB82D8CEC39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42169BE36B33697A51241B80BD36A00 /* GoogleMaps */,
+				91DFA40A36D7618B4492270C7F63DBE1 /* GooglePlaces */,
+				627FE862D153A73B5DD9E2A8DA88072F /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		912AAC7FC58EDD53E4D9DF85A3258149 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				628DAE06CB021A0BCAF20A23CFC5596A /* Pods-Food Delivery Viper */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91DFA40A36D7618B4492270C7F63DBE1 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C3F9AE9DAA53CFEC83000BDB07CE2 /* Frameworks */,
+				2AE5B018CDF65C7B27782B09CD04BA5A /* Resources */,
+				B2BA3A573545CED172D234BD7A8F4EDD /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		A80A7197FFDEC718D63E4E038B90834D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FBDB19DE0CE81F810540E2567D9A22F /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2BA3A573545CED172D234BD7A8F4EDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC6018847CC429A83BC80DD7B62F20F8 /* GooglePlaces.debug.xcconfig */,
+				953D60100F0A0FD4EA076584030933E6 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		C74B2AB408EA2FA6943D99D6C1701019 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD264A1D8CCBD7C99E64332752531A /* Frameworks */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -191,10 +270,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E858A99A3564099E88E4CF05F26A517D /* Pods */,
-				1A6E0D7DC8A306AD69C5961E884CC245 /* Products */,
-				C406EDC0131CEECEC0CF8364C84E5DC1 /* Targets Support Files */,
+				89F9E2FADC2409ACB4C46EB82D8CEC39 /* Pods */,
+				D74FEFD9D1E922245FF6237CCF9F2D12 /* Products */,
+				912AAC7FC58EDD53E4D9DF85A3258149 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF5D3AC8D7CC75BFAA7FCFA0B5A25AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B74E83F6FE09CBE04209D5D2F54EA78D /* GoogleMaps.framework */,
+				1FBCCD1EC0595E98FF226CACB43226F0 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -205,65 +293,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E435AD63DBCE250679648002DC9F8442 /* Frameworks */ = {
+		D74FEFD9D1E922245FF6237CCF9F2D12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */,
-				23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */,
+				37E25DB2605671127C35F61754E077EF /* Pods_Food_Delivery_Viper.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E858A99A3564099E88E4CF05F26A517D /* Pods */ = {
+		F42169BE36B33697A51241B80BD36A00 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				0883B537F1FDF67277437486C4066E63 /* GoogleMaps */,
-				446F55954A1B4F44697D4CD53ABC566B /* GooglePlaces */,
+				C74B2AB408EA2FA6943D99D6C1701019 /* Base */,
+				64DEEB477B22076EADD3E95E14B0B65A /* Maps */,
+				3E5A5A3A9AD9BA6DBA8C98E7E218018A /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E86A34344FF943F078B6064D778D230A /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				01178CDE9E7F5E928EDC642D6B628FE0 /* Frameworks */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		EBB37780F380A0D34B0D33ACF40B9B5E /* Pods-Food Delivery Viper */ = {
-			isa = PBXGroup;
-			children = (
-				63BED1FADB5C4617CD7A892434369C06 /* Pods-Food Delivery Viper.modulemap */,
-				1CE443733F8E6539D01CD489E5152744 /* Pods-Food Delivery Viper-acknowledgements.markdown */,
-				DB9E64804A640824EE632746F1123DD5 /* Pods-Food Delivery Viper-acknowledgements.plist */,
-				4E50032CCE4F76B3EBEA5B724FC66B3D /* Pods-Food Delivery Viper-dummy.m */,
-				636AA19C4EF5DF23EA49E4038E89BA03 /* Pods-Food Delivery Viper-Info.plist */,
-				9858667A5115CF4B22A776DAF316AE25 /* Pods-Food Delivery Viper-resources.sh */,
-				FC61D11616A5ADF8CF3504C1657EA089 /* Pods-Food Delivery Viper-umbrella.h */,
-				AA1453C3FDA64B69E76DE4D3CC9AD10C /* Pods-Food Delivery Viper.debug.xcconfig */,
-				575E5ECD1739D6F9326C6F5644D37EAD /* Pods-Food Delivery Viper.release.xcconfig */,
-			);
-			name = "Pods-Food Delivery Viper";
-			path = "Target Support Files/Pods-Food Delivery Viper";
-			sourceTree = "<group>";
-		};
-		FAF4CAFF608973234241B6D824C4FC0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */,
-			);
-			name = Resources;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CA5A9FCB1FD35AF17E8D751E57FFB25B /* Headers */ = {
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75100E5CE4C3CE9FAFF6F45440577618 /* Pods-Food Delivery Viper-umbrella.h in Headers */,
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C724DAB91E0E56B1D0A9434B53852F8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA321B64CD9827EF71A04E4896473606 /* Pods-Food Delivery Viper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,22 +337,41 @@
 /* Begin PBXNativeTarget section */
 		7073F7D65A23063CA1659B9FC45BCDF8 /* Pods-Food Delivery Viper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C456E8A4C48D396BE6003F7436E993C3 /* Build configuration list for PBXNativeTarget "Pods-Food Delivery Viper" */;
+			buildConfigurationList = E2A6D3667A924FE8FBCC0730EFB71DF8 /* Build configuration list for PBXNativeTarget "Pods-Food Delivery Viper" */;
 			buildPhases = (
-				CA5A9FCB1FD35AF17E8D751E57FFB25B /* Headers */,
-				E01B0EB800FD5E3268ED5F072223F1BA /* Sources */,
-				5B6D77257BEBA5177F2847CDD23BBDB6 /* Frameworks */,
-				3ACF345A76A7C64F0EDC4FD9CAA2B975 /* Resources */,
+				C724DAB91E0E56B1D0A9434B53852F8B /* Headers */,
+				8AF2AC2D19DE71D95C1980C2F38CFB81 /* Sources */,
+				4C25AD067FEFB2E4EB02DF8F08919A23 /* Frameworks */,
+				F9627918393D14AF79B9F64708E9C376 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2800B46E7E351DC2386C9084E3260DE /* PBXTargetDependency */,
-				A67A15905B5A3445B9F178AA6AC29382 /* PBXTargetDependency */,
+				3E5A9A96D8BFD094DC0593BF10A04B77 /* PBXTargetDependency */,
+				171321DB16F7CF23F167FBC9ADDB3F98 /* PBXTargetDependency */,
+				36FBC625E6AFF112AEFD8C0AF5569A98 /* PBXTargetDependency */,
 			);
 			name = "Pods-Food Delivery Viper";
 			productName = "Pods-Food Delivery Viper";
 			productReference = 37E25DB2605671127C35F61754E077EF /* Pods_Food_Delivery_Viper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -308,19 +392,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1A6E0D7DC8A306AD69C5961E884CC245 /* Products */;
+			productRefGroup = D74FEFD9D1E922245FF6237CCF9F2D12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
 				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
 				7073F7D65A23063CA1659B9FC45BCDF8 /* Pods-Food Delivery Viper */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3ACF345A76A7C64F0EDC4FD9CAA2B975 /* Resources */ = {
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9627918393D14AF79B9F64708E9C376 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,76 +422,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E01B0EB800FD5E3268ED5F072223F1BA /* Sources */ = {
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD998C9D65A368E60EAAA29DE74BEE4 /* Pods-Food Delivery Viper-dummy.m in Sources */,
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF2AC2D19DE71D95C1980C2F38CFB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922712140093A3ED72D88FC384B53944 /* Pods-Food Delivery Viper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A67A15905B5A3445B9F178AA6AC29382 /* PBXTargetDependency */ = {
+		171321DB16F7CF23F167FBC9ADDB3F98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = CB08C58F56A83E364E1B6EB33FDACE03 /* PBXContainerItemProxy */;
+			targetProxy = 20440EE2B95B574D3610FE23402D7FB1 /* PBXContainerItemProxy */;
 		};
-		E2800B46E7E351DC2386C9084E3260DE /* PBXTargetDependency */ = {
+		36FBC625E6AFF112AEFD8C0AF5569A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 0BDBEDC77D187DEE3F71FEB9595CA0FD /* PBXContainerItemProxy */;
+		};
+		3E5A9A96D8BFD094DC0593BF10A04B77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 782800D07FBC7491864894A8184F44A8 /* PBXContainerItemProxy */;
+			targetProxy = 845CC743BB9EA8214C1310102DE400A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1241AD629CCBDF563F2DB17AF0D326CF /* Release */ = {
+		1A3E2C06B0CEEC2B4984526A012D2E9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575E5ECD1739D6F9326C6F5644D37EAD /* Pods-Food Delivery Viper.release.xcconfig */;
+			baseConfigurationReference = 953D60100F0A0FD4EA076584030933E6 /* GooglePlaces.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		16F7C4BB1FABF0811D724289C93AB977 /* Debug */ = {
+		218C66A119E70617DF8C9704BC25842F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA1453C3FDA64B69E76DE4D3CC9AD10C /* Pods-Food Delivery Viper.debug.xcconfig */;
+			baseConfigurationReference = B33EF03EAD0EDD985F461E18B7C528AD /* SwiftyJSON.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -408,23 +493,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -497,6 +581,58 @@
 			};
 			name = Debug;
 		};
+		3223257421BF8C748A89FB5FDE0790DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6018847CC429A83BC80DD7B62F20F8 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61B1E216A15BEC117C8675701276B74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513E2201DCE4B2EBDEE568462C07FAC3 /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -559,27 +695,46 @@
 			};
 			name = Release;
 		};
-		88BF77687BFC2BC2FB3F8F329A47B311 /* Release */ = {
+		A8B7A0E6036ED72B5FDF80C472490AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */;
+			baseConfigurationReference = 1DEC7073E8CB414220F74FAB65306A19 /* Pods-Food Delivery Viper.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BB9F138D6BE5B0B420804AA4F837BD74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
+			baseConfigurationReference = 97B2925273397BE83004B1A581F4FF57 /* GoogleMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -594,26 +749,47 @@
 			};
 			name = Debug;
 		};
-		E2C5D149DE277CA85397A039B337B44C /* Debug */ = {
+		CB5551BD15BC8480B61650936A064BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
+			baseConfigurationReference = A06AE6EBFF252AFA0B80B1A828F40EC3 /* Pods-Food Delivery Viper.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FAD95AA7CDFAD96FA4035B88B54EA6F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
+			baseConfigurationReference = 6698465E67FA7D1296DDF665A4C36D96 /* GoogleMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -650,20 +826,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C5D149DE277CA85397A039B337B44C /* Debug */,
-				88BF77687BFC2BC2FB3F8F329A47B311 /* Release */,
+				218C66A119E70617DF8C9704BC25842F /* Debug */,
+				61B1E216A15BEC117C8675701276B74D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C456E8A4C48D396BE6003F7436E993C3 /* Build configuration list for PBXNativeTarget "Pods-Food Delivery Viper" */ = {
+		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16F7C4BB1FABF0811D724289C93AB977 /* Debug */,
-				1241AD629CCBDF563F2DB17AF0D326CF /* Release */,
+				3223257421BF8C748A89FB5FDE0790DE /* Debug */,
+				1A3E2C06B0CEEC2B4984526A012D2E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A6D3667A924FE8FBCC0730EFB71DF8 /* Build configuration list for PBXNativeTarget "Pods-Food Delivery Viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B7A0E6036ED72B5FDF80C472490AB8 /* Debug */,
+				CB5551BD15BC8480B61650936A064BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -89,13 +89,6 @@
     [text appendAttributedString:doubleReturn];
     [text appendAttributedString:attributions];
   }
-#if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
-  if (@available(iOS 13.0, *)) {
-    [text addAttribute:NSForegroundColorAttributeName
-                 value:[UIColor labelColor]
-                 range:NSMakeRange(0, text.length)];
-  }
-#endif
   _textView.attributedText = text;
   [_textView setIsAccessibilityElement:YES];
   [_textView setHidden:NO];
@@ -175,18 +168,7 @@
   // Create a button to show the autocomplete widget.
   UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
   [button setTitle:title forState:UIControlStateNormal];
-
-  // Set the text color to adapt to light and dark mode on iOS 13+ devices
-  // Otherwise, set the text color to black
-#if defined(__IPHONE_13_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0)
-  if (@available(iOS 13.0, *)) {
-    [button setTitleColor:[UIColor labelColor] forState:UIControlStateNormal];
-  } else {
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-  }
-#else
-  self.view.backgroundColor = [UIColor whiteColor];
-#endif  // defined(__IPHONE_13_0) && __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_13_0
+  [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   [button addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
   button.translatesAutoresizingMaskIntoConstraints = NO;
   [self.view addSubview:button];

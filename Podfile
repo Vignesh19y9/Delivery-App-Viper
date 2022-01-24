@@ -8,6 +8,8 @@ target 'Food Delivery Viper' do
   # Pods for Food Delivery Viper
 
 pod 'GoogleMaps'
-pod 'GooglePlaces'
+pod 'GooglePlaces', '~> 5.0.0'
+
+pod 'SwiftyJSON'
 
 end

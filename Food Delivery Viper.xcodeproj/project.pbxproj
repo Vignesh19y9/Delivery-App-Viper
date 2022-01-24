@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1D21368940AA08F60EDB962E /* Pods_Food_Delivery_Viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4272C1320C4846C895EF48A5 /* Pods_Food_Delivery_Viper.framework */; };
+		2F256655279D45E3002EFAD2 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F256654279D45E3002EFAD2 /* WebServiceManager.swift */; };
+		2F256659279D60D4002EFAD2 /* AdressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F256658279D60D4002EFAD2 /* AdressTableViewCell.swift */; };
+		2F25665B279DA6EE002EFAD2 /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25665A279DA6EE002EFAD2 /* GoogleDataProvider.swift */; };
+		2F256660279DBF31002EFAD2 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25665E279DBF30002EFAD2 /* MarkerInfoView.swift */; };
+		2F256661279DBF31002EFAD2 /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F25665F279DBF31002EFAD2 /* MarkerInfoView.xib */; };
+		2F256665279DC883002EFAD2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F256664279DC883002EFAD2 /* Constants.swift */; };
+		2F455796279C510300118A9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F455795279C510300118A9A /* HomeViewController.swift */; };
+		2F455798279C513A00118A9A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F455797279C513A00118A9A /* Router.swift */; };
+		2F45579A279C514600118A9A /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F455799279C514600118A9A /* Entity.swift */; };
+		2F45579C279C515900118A9A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45579B279C515900118A9A /* Presenter.swift */; };
+		2F45579E279C516500118A9A /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45579D279C516500118A9A /* Interactor.swift */; };
+		2F4557A1279C517B00118A9A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4557A0279C517B00118A9A /* Protocols.swift */; };
+		2F47F67B279E6C2600E26620 /* SimulatedLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2F47F67A279E6C2600E26620 /* SimulatedLocations.gpx */; };
+		2F47F67E279EB4FC00E26620 /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F47F67D279EB4FC00E26620 /* NearByViewController.swift */; };
+		2F47F680279EB5B400E26620 /* NearByTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F47F67F279EB5B400E26620 /* NearByTableViewCell.swift */; };
 		2F8D352E279C1A640038A961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D352D279C1A640038A961 /* AppDelegate.swift */; };
 		2F8D3530279C1A640038A961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D352F279C1A640038A961 /* SceneDelegate.swift */; };
-		2F8D3532279C1A640038A961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D3531279C1A640038A961 /* ViewController.swift */; };
+		2F8D3532279C1A640038A961 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D3531279C1A640038A961 /* LoginViewController.swift */; };
 		2F8D3535279C1A640038A961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D3533279C1A640038A961 /* Main.storyboard */; };
 		2F8D3537279C1A670038A961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D3536279C1A670038A961 /* Assets.xcassets */; };
 		2F8D353A279C1A670038A961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D3538279C1A670038A961 /* LaunchScreen.storyboard */; };
@@ -18,10 +33,25 @@
 
 /* Begin PBXFileReference section */
 		177D113F811BBD8875FDD741 /* Pods-Food Delivery Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Delivery Viper.release.xcconfig"; path = "Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper.release.xcconfig"; sourceTree = "<group>"; };
+		2F256654279D45E3002EFAD2 /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		2F256658279D60D4002EFAD2 /* AdressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressTableViewCell.swift; sourceTree = "<group>"; };
+		2F25665A279DA6EE002EFAD2 /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		2F25665E279DBF30002EFAD2 /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		2F25665F279DBF31002EFAD2 /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		2F256664279DC883002EFAD2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F455795279C510300118A9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2F455797279C513A00118A9A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2F455799279C514600118A9A /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		2F45579B279C515900118A9A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		2F45579D279C516500118A9A /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		2F4557A0279C517B00118A9A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		2F47F67A279E6C2600E26620 /* SimulatedLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SimulatedLocations.gpx; sourceTree = "<group>"; };
+		2F47F67D279EB4FC00E26620 /* NearByViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
+		2F47F67F279EB5B400E26620 /* NearByTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByTableViewCell.swift; sourceTree = "<group>"; };
 		2F8D352A279C1A640038A961 /* Food Delivery Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Delivery Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8D352D279C1A640038A961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F8D352F279C1A640038A961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F8D3531279C1A640038A961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F8D3531279C1A640038A961 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2F8D3534279C1A640038A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F8D3536279C1A670038A961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8D3539279C1A670038A961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,53 +72,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F455780279C4BA300118A9A /* Home Controller */ = {
+		2F256662279DC7F2002EFAD2 /* Marker View */ = {
 			isa = PBXGroup;
 			children = (
-				2F455785279C4C8600118A9A /* Router */,
-				2F455784279C4C7800118A9A /* Entity */,
-				2F455783279C4C5C00118A9A /* Presentor */,
-				2F455782279C4C4300118A9A /* View */,
-				2F455781279C4C3E00118A9A /* Interactor */,
+				2F25665E279DBF30002EFAD2 /* MarkerInfoView.swift */,
+				2F25665F279DBF31002EFAD2 /* MarkerInfoView.xib */,
+			);
+			path = "Marker View";
+			sourceTree = "<group>";
+		};
+		2F256663279DC814002EFAD2 /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				2F256654279D45E3002EFAD2 /* WebServiceManager.swift */,
+				2F25665A279DA6EE002EFAD2 /* GoogleDataProvider.swift */,
+			);
+			path = "Data Service";
+			sourceTree = "<group>";
+		};
+		2F256666279DC889002EFAD2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2F256664279DC883002EFAD2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2F45578F279C4FFD00118A9A /* Home Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F47F67A279E6C2600E26620 /* SimulatedLocations.gpx */,
+				2F256663279DC814002EFAD2 /* Data Service */,
+				2F256662279DC7F2002EFAD2 /* Marker View */,
+				2F45579F279C516900118A9A /* Protocol */,
+				2F455794279C508300118A9A /* Router */,
+				2F455793279C507B00118A9A /* Entity */,
+				2F455792279C506900118A9A /* Presenter */,
+				2F455791279C504A00118A9A /* Interactor */,
+				2F455790279C503300118A9A /* View */,
+				2F256666279DC889002EFAD2 /* Constants */,
 			);
 			path = "Home Controller";
 			sourceTree = "<group>";
 		};
-		2F455781279C4C3E00118A9A /* Interactor */ = {
+		2F455790279C503300118A9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2F256658279D60D4002EFAD2 /* AdressTableViewCell.swift */,
+				2F455795279C510300118A9A /* HomeViewController.swift */,
 			);
-			name = Interactor;
-			path = "New Group";
+			path = View;
 			sourceTree = "<group>";
 		};
-		2F455782279C4C4300118A9A /* View */ = {
+		2F455791279C504A00118A9A /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				2F45579D279C516500118A9A /* Interactor.swift */,
 			);
-			name = View;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
-		2F455783279C4C5C00118A9A /* Presentor */ = {
+		2F455792279C506900118A9A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				2F45579B279C515900118A9A /* Presenter.swift */,
 			);
-			name = Presentor;
-			path = "New Group";
+			path = Presenter;
 			sourceTree = "<group>";
 		};
-		2F455784279C4C7800118A9A /* Entity */ = {
+		2F455793279C507B00118A9A /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				2F455799279C514600118A9A /* Entity.swift */,
 			);
-			name = Entity;
+			path = Entity;
 			sourceTree = "<group>";
 		};
-		2F455785279C4C8600118A9A /* Router */ = {
+		2F455794279C508300118A9A /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				2F455797279C513A00118A9A /* Router.swift */,
 			);
-			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2F45579F279C516900118A9A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2F4557A0279C517B00118A9A /* Protocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2F47F67C279EB4CD00E26620 /* Restaurant Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F47F67D279EB4FC00E26620 /* NearByViewController.swift */,
+				2F47F67F279EB5B400E26620 /* NearByTableViewCell.swift */,
+			);
+			path = "Restaurant Controller";
 			sourceTree = "<group>";
 		};
 		2F8D3521279C1A640038A961 = {
@@ -112,10 +194,11 @@
 		2F8D352C279C1A640038A961 /* Food Delivery Viper */ = {
 			isa = PBXGroup;
 			children = (
-				2F455780279C4BA300118A9A /* Home Controller */,
+				2F47F67C279EB4CD00E26620 /* Restaurant Controller */,
+				2F45578F279C4FFD00118A9A /* Home Controller */,
 				2F8D352D279C1A640038A961 /* AppDelegate.swift */,
 				2F8D352F279C1A640038A961 /* SceneDelegate.swift */,
-				2F8D3531279C1A640038A961 /* ViewController.swift */,
+				2F8D3531279C1A640038A961 /* LoginViewController.swift */,
 				2F8D3533279C1A640038A961 /* Main.storyboard */,
 				2F8D3536279C1A670038A961 /* Assets.xcassets */,
 				2F8D3538279C1A670038A961 /* LaunchScreen.storyboard */,
@@ -153,6 +236,7 @@
 				2F8D3527279C1A640038A961 /* Frameworks */,
 				2F8D3528279C1A640038A961 /* Resources */,
 				7A183BBEAEA51CE14F5C5FE2 /* [CP] Copy Pods Resources */,
+				6256A10731D8F4B5E1FAF5B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F47F67B279E6C2600E26620 /* SimulatedLocations.gpx in Resources */,
+				2F256661279DBF31002EFAD2 /* MarkerInfoView.xib in Resources */,
 				2F8D353A279C1A670038A961 /* LaunchScreen.storyboard in Resources */,
 				2F8D3537279C1A670038A961 /* Assets.xcassets in Resources */,
 				2F8D3535279C1A640038A961 /* Main.storyboard in Resources */,
@@ -210,6 +296,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6256A10731D8F4B5E1FAF5B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Delivery Viper/Pods-Food Delivery Viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A183BBEAEA51CE14F5C5FE2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,9 +359,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F8D3532279C1A640038A961 /* ViewController.swift in Sources */,
+				2F8D3532279C1A640038A961 /* LoginViewController.swift in Sources */,
+				2F256665279DC883002EFAD2 /* Constants.swift in Sources */,
+				2F25665B279DA6EE002EFAD2 /* GoogleDataProvider.swift in Sources */,
+				2F45579C279C515900118A9A /* Presenter.swift in Sources */,
 				2F8D352E279C1A640038A961 /* AppDelegate.swift in Sources */,
+				2F47F67E279EB4FC00E26620 /* NearByViewController.swift in Sources */,
+				2F4557A1279C517B00118A9A /* Protocols.swift in Sources */,
+				2F45579A279C514600118A9A /* Entity.swift in Sources */,
+				2F455798279C513A00118A9A /* Router.swift in Sources */,
+				2F256660279DBF31002EFAD2 /* MarkerInfoView.swift in Sources */,
+				2F47F680279EB5B400E26620 /* NearByTableViewCell.swift in Sources */,
 				2F8D3530279C1A640038A961 /* SceneDelegate.swift in Sources */,
+				2F45579E279C516500118A9A /* Interactor.swift in Sources */,
+				2F256655279D45E3002EFAD2 /* WebServiceManager.swift in Sources */,
+				2F455796279C510300118A9A /* HomeViewController.swift in Sources */,
+				2F256659279D60D4002EFAD2 /* AdressTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +527,8 @@
 				DEVELOPMENT_TEAM = 5GQP797UUR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Food Delivery Viper/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need Location Acess for Map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -442,6 +560,8 @@
 				DEVELOPMENT_TEAM = 5GQP797UUR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Food Delivery Viper/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need Location Acess for Map";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="Xcode">
-  <wpt lat="37.3349285" lon="-122.011033">
-    <name>Apple</name>
+  <wpt lat="8.4869419" lon="76.9527983">
+    <name>TVM</name>
     <time>2014-09-24T14:00:00Z</time>
   </wpt>
-  <wpt lat="37.422" lon="-122.084058">
-    <name>Google</name>
-    <time>2014-09-24T14:00:05Z</time>
+  <wpt lat="8.8932" lon="76.6141">
+    <name>kollam</name>
+    <time>2014-09-24T14:00:60Z</time>
   </wpt>
 </gpx>
+
+
+<!--TVM 8.4869419, 76.9527983-->
+<!--kollam 8.8932, 76.6141-->
+
+
+<!--Apple 37.3349285, -122.011033-->
+<!--Google 37.422, -122.084058-->
