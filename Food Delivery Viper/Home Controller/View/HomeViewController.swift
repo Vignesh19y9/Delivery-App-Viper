@@ -37,7 +37,7 @@ class HomeViewController: UIViewController {
         presenter?.viewDidLoad(with: self)
         presenter?.getMyLocation()
         
-        GMSServices.provideAPIKey(GoogleAPIConstants.key)
+        GMSServices.provideAPIKey(GoogleAPIConstants.key2)
         self.setMap()
         
         

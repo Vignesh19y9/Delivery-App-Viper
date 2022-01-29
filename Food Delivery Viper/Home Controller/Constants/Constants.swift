@@ -11,11 +11,8 @@ let shouldREturn = false
 
 enum GoogleAPIConstants {
     
-    static let key = "AIzaSyCbUaNMEhxu11BmllfCa0Gg3AAZPz9ZjF0"
-    static let key2 = "AIzaSyAT-uKygf9QKthNfe1TxZgGhTkpTp0htjg"
-    //"AIzaSyC95FSA6CwwcsplnZjflTEhwicltWzBwiQ"
-    //"AIzaSyAV5qoB2RRn3cwYAKLT6ot8aNbwi6Mzdao"
-    //"AIzaSyDt-hLUignc2P9lTLP-8x9C80kKyYtrQyM"
+    static let key = ""//Maps sdk key
+    static let key2 = ""//Route key
     
     
 }
@@ -43,3 +40,12 @@ struct GoogleUrls{
     }
     
 }
+
+
+
+//"AIzaSyCbUaNMEhxu11BmllfCa0Gg3AAZPz9ZjF0"
+//"AIzaSyAT-uKygf9QKthNfe1TxZgGhTkpTp0htjg"
+//"AIzaSyC95FSA6CwwcsplnZjflTEhwicltWzBwiQ"
+//"AIzaSyAV5qoB2RRn3cwYAKLT6ot8aNbwi6Mzdao"
+//"AIzaSyDt-hLUignc2P9lTLP-8x9C80kKyYtrQyM"
+//"AIzaSyC95FSA6CwwcsplnZjflTEhwicltWzBwiQ"
