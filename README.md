@@ -10,6 +10,11 @@ Feature :
 Note : Refer the attached screen recording to see working
 
 
-![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/Screen%20record%20v1.mp4)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/1.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/2.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/3.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/4.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/5.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/6.PNG)
+![alt tag](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/7.PNG)
 
-![caption](https://github.com/Vignesh19y9/Delivery-App-Viper/blob/main/Screen%20record%20v1.mp4)
